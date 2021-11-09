@@ -1,0 +1,20 @@
+sort1 uses: Bubble Sort
+
+How do you know?: On my tests, sort1 had the worst to second worst averaged run time on reversed and random files (competing with sort3)
+while having the best averaged run time on sorted files.
+
+sort2 uses: Merge Sort
+
+How do you know?: On my tests, sort2 had the best averaged time on the reversed files (worst case) 
+and the second best averaged time on sorted files (best case).
+
+sort3 uses: Selection Sort
+
+How do you know?: On my tests, sort3 had both the worst to second worst averaged run time on reversed and random files
+(competing with sort1) and the worst averaged time on sorted files.
+
+Using a table with the "Big O" quotation and "Omega" quotation, I was able to rank the 3 sort files as they are:
+Merge sort has the best worst case run time and second best run time on best case scenarios;
+Bubble sort and Selection sort both have the worst run times on worst case scenarios, although Bubble sort has the best
+rum time of all three sorting algorithms on best case scenarios, leaving Selection Sort with the worst time on its' best cases. 
+
